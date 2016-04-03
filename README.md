@@ -9,12 +9,12 @@ For find out if the target is 'Portrait' 'Landscape' or 'Square'.
 
 npm
 
-```
-npm install check-pls
+```html
+$ npm install check-pls
 ```
 
 CDN
-```
+```html
 <script src="https://npmcdn.com/check-pls/check-pls.min.js"></script>
 ```
 
@@ -22,7 +22,7 @@ CDN
 ## Usage
 
 
-```
+```js
 checkPls(element) // => string ['portrait'||'landscape'||'square']
 checkPls(element, 'portrait') // => boolean
 checkPls(element, 'landscape') // => boolean
@@ -33,13 +33,14 @@ checkPls(element, 'square') // => boolean
 ### Example
 
 html
-```
+```html
 <img src="image-portrait.jpg" />
 <img src="image-landscape.jpg" />
 <img src="image-square.jpg" />
 ```
 use [`imagesLoaded`](http://imagesloaded.desandro.com/) `$ npm install imagesloaded`
-```
+
+```js
 import imagesLoaded from 'imagesloaded'
 import checkPls from 'check-pls'
 
@@ -57,7 +58,7 @@ imagesLoaded(el, () => {
 
 Result:
 
-```
+```js
 // image-portrait.jpg
 str => portrait
 bool => false
