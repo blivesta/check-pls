@@ -3,16 +3,6 @@
   "version": "0.0.1",
   "description": "For find out if the target is 'Landscape' 'Portrait' or 'Square'.",
   "main": "check-pls.js",
-  "license": "MIT",
-  "keywords": [
-    "landscape",
-    "portrait",
-    "square"
-  ],
-  "author": {
-    "name": "blivesta",
-    "url": "http://www.blivesta.com"
-  },
   "scripts": {
     "dev": "karma start",
     "lint": "eslint check-pls.js",
@@ -41,5 +31,15 @@
     "mocha": "^2.4.5",
     "uglify-js": "^2.6.2",
     "webpack": "^1.12.14"
+  },
+  "license": "MIT",
+  "keywords": [
+    "landscape",
+    "portrait",
+    "square"
+  ],
+  "author": {
+    "name": "blivesta",
+    "url": "http://www.blivesta.com"
   }
 }
