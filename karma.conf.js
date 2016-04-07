@@ -1,7 +1,7 @@
 module.exports = function (config) {
   config.set({
     autoWatch: true,
-    browsers: ['Firefox'],
+    browsers: ['PhantomJS'],
     frameworks: ['mocha', 'chai'],
     files: [
       {
@@ -15,7 +15,7 @@ module.exports = function (config) {
     ],
     plugins: [
       'karma-chai',
-      'karma-firefox-launcher',
+      'karma-phantomjs-launcher',
       'karma-html2js-preprocessor',
       'karma-mocha',
       'karma-mocha-reporter',
