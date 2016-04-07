@@ -1,6 +1,6 @@
 {
   "name": "check-pls",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "For find out if the target is 'Landscape' 'Portrait' or 'Square'.",
   "main": "check-pls.js",
   "scripts": {
@@ -32,6 +32,10 @@
     "phantomjs-prebuilt": "^2.1.7",
     "uglify-js": "^2.6.2",
     "webpack": "^1.12.14"
+  },
+  "repository": {
+    "url": "https://github.com/blivesta/check-pls.git",
+    "type": "git"
   },
   "license": "MIT",
   "keywords": [
