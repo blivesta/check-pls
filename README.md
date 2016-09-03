@@ -15,7 +15,7 @@ $ npm install check-pls
 
 CDN
 ```html
-<script src="https://npmcdn.com/check-pls/check-pls.min.js"></script>
+<script src="https://unpkg.com/check-pls/check-pls.min.js"></script>
 ```
 
 
